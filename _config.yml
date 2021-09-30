@@ -1,4 +1,7 @@
 theme: jekyll-theme-hacker
 
+github:
+    is_project_page: false
+
 title: TallerThanShort
 description: legit just an about me site, ok?
