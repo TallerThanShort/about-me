@@ -11,3 +11,7 @@ I sell Consumer Products...
 I also like to make music, *ok?*
 
 Oh, and new item on this list: bought Discord Nitro for 2 boost for the PolySpace server.
+
+## Projects I curate:
+- [OpenSource uTube](https://github.com/CKStudios2018/OpenSource-uTube)
+- [LoopyOS](https://github.com/CKStudios2018/LoopyOS)
