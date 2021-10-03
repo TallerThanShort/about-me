@@ -10,7 +10,15 @@ I sell Consumer Products...
 
 I also like to make music, *ok?*
 
-Oh, and I bought Discord Nitro for 2 boost for the PolySpace server, and gave some random kid Nitro Classic.
+# Discord Nitro
+
+[Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
+
+Oh, and I bought Discord Nitro for 2 boost for the PolySpace server, and gave some random kids Nitro Classic.
+
+Total Nitro given away (months): 4
+
+Total Nitro given away (people): 4
 
 ## Projects I Curate:
 - ./CKStudios2018/[OpenSource-uTube](https://github.com/CKStudios2018/OpenSource-uTube)
