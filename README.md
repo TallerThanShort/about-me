@@ -2,19 +2,13 @@
 Elo, I'm TTS (**CKS3**)
 
 I like to code random stuff in **C languages** (C, C++, C#) and I make things happen in HTML.
-I know how to code some basic js stuff and I'm learning rust atm. I also started coding in SYSlang recently.
 
-I generally hate life, suck at making anything good and don't eat enough...
-
-I sell Consumer Products...
+I code in, well... C languages, HTML, CSS (I hate this one), JS, py, lua, SYSl and I'm learning rust atm.
 
 I also like to make music, *ok?*
 
 # Discord Nitro
-
 [Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
-
-Oh, and I bought Discord Nitro for 2 boost for the PolySpace server, and gave some random kids Nitro Classic.
 
 Total Nitro given away (months): 4
 
