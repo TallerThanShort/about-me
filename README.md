@@ -20,3 +20,4 @@ Total Nitro given away (people): 4
 - ./TallerThanShort/[SYSl-BetterGUI](https://github.com/TallerThanShort/SYSlang)
 - ./CKStudios2018/[SYSbot-Website](https://github.com/CKStudios2018/syslbot)
 - ./V1RU5/Discord.SYSl
+- ./CKStudios2018/[SYSbot](https://github.com/CKStudios2018/SYSbot)
