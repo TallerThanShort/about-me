@@ -5,7 +5,7 @@ I like to code random stuff in **C languages** (C, C++, C#) and I make things ha
 
 I code in, well... C languages, HTML, CSS (I hate this one), JS, py, lua, SYSl and I'm learning rust atm.
 
-I also like to make music, *ok?*
+I also like to do some phowoshopping and make music, *ok?*
 
 # Discord Nitro
 [Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
