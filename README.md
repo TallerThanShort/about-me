@@ -21,3 +21,4 @@ Total Nitro given away (people): 8
 - ./CKStudios2018/[SYSbot-Website](https://github.com/CKStudios2018/syslbot)
 - ./V1RU5/Discord.SYSl
 - ./CKStudios2018/[SYSbot](https://github.com/CKStudios2018/SYSbot)
+- ./TallerThanShort/[Virtual Waifu](https://github.com/TallerThanShort/Virtual-Waifu)
