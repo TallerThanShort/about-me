@@ -10,9 +10,9 @@ I also like to do some photoshopping and make music, *ok?*
 # Discord Nitro
 [Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
 
-Total Nitro given away (months): 9
+Total Nitro given away (months): 14
 
-Total Nitro given away (people): 8
+Total Nitro given away (people): 13
 
 ## Projects I Curate:
 - ./CKStudios2018/[OpenSource-uTube](https://github.com/CKStudios2018/OpenSource-uTube)
