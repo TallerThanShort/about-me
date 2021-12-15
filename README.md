@@ -5,7 +5,7 @@ I like to code random stuff in **C languages** (C, C++, C#) and I make things ha
 
 I code in, well... C languages, HTML, CSS (I hate this one), JS, py, lua, SYSl and I'm learning rust atm.
 
-I also like to do some photoshopping and make music, and have recently been doing some freelance gigs in WordPress, Joomla! and ReadyMag.
+I also like to do some photoshopping, play Minecraft (check out [my VarietySMP gameplay](https://youtube.com/playlist?list=PLC0ZN6JJKZxe_KnAuq664AlETPl4n3a8H)), and make music, and have recently been doing some freelance gigs in WordPress, Joomla! and ReadyMag.
 
 # Discord Nitro
 [Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
