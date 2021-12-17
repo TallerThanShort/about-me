@@ -15,6 +15,7 @@ Total Nitro given away (months): 20
 Total Nitro given away (people): 19
 
 ## Projects I Curate:
+- ./TallerThanShort/[BugFreeChat](https://bug-free-chat.netlify.app/)
 - ./CKStudios2018/[OpenSource-uTube](https://github.com/CKStudios2018/OpenSource-uTube)
 - ./CKStudios2018/[LoopyOS](https://github.com/CKStudios2018/LoopyOS)
 - ./TallerThanShort/[SYSl-BetterGUI](https://github.com/TallerThanShort/SYSlang)
