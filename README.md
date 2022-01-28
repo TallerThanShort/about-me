@@ -8,6 +8,8 @@ I code in, well... C languages, HTML, CSS (I hate this one), JS, py, lua, SYSl a
 I also like to do some photoshopping, play Minecraft (check out [my VarietySMP gameplay](https://youtube.com/playlist?list=PLC0ZN6JJKZxe_KnAuq664AlETPl4n3a8H)), and make music, and have recently done some SEO in WordPress, Joomla! and ReadyMag.
 
 ## Pigstep
+I'm now a BR (Bot Reviewer) @ [top.gg](https://top.gg/)
+
 Spam me at [TallerThanShort@hotmail.com](mailto:TallerThanShort@hotmail.com) (not my public-facing email lol)
 
 Feel free to chat on [Discord with me](https://discord.gg/YEvpRE2Gjt)
