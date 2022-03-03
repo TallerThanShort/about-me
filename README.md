@@ -8,18 +8,11 @@ I code in, well... C languages, HTML, CSS (I hate this one), JS, py, lua, SYSl a
 I also like to do some photoshopping, play Minecraft (check out [my VarietySMP gameplay](https://youtube.com/playlist?list=PLC0ZN6JJKZxe_KnAuq664AlETPl4n3a8H)), and make music, and have recently done some SEO in WordPress, Joomla! and ReadyMag.
 
 ## Pigstep
-I'm now a BR (Bot Reviewer) @ [top.gg](https://top.gg/)
+I was a BR (Bot Reviewer) @ [top.gg](https://top.gg/) until I left Discord in March 2022.
 
 Spam me at [TallerThanShort@hotmail.com](mailto:TallerThanShort@hotmail.com) (not my public-facing email lol)
 
-Feel free to chat on [Discord with me](https://discord.gg/YEvpRE2Gjt)
-
-### Discord Nitro
-[Link to the T&C's](https://TallerThanShort.github.io/nitro-conditions)
-
-Total Nitro given away (months): 21
-
-Total Nitro given away (people): 20
+Feel free to chat on [Revolt with me](https://app.revolt.chat/invite/E1GKAxh8)
 
 ## Projects I Curate:
 - ./TallerThanShort/[BugFreeChat](https://bug-free-chat.netlify.app/)
@@ -32,3 +25,4 @@ Total Nitro given away (people): 20
 - ./TallerThanShort/[Virtual Waifu](https://github.com/TallerThanShort/Virtual-Waifu)
 - ./TallerThanShort/[ut3 (uTube image repo)](https://github.com/TallerThanShort/ut3.ggpht)
 - ./TallerThanShort/[ut3.ggpht (uTube CDN)](https://tallerthanshort.github.io/ut3.ggpht/)
+- ./Common-Codes/[SYSbot for Revolt](https://github.com/Common-Codes/SYS4Revolt)
