@@ -1,27 +1,36 @@
 # About Me
 Elo, I'm TTS (**CKS3**)
 
-I like to code random stuff in **C languages** (C, C++, C#) and I make things happen in HTML. **I AM NOT A PROGRAMMER!**
+I'm a goofball that likes to make things like websites or social media platforms for fun.
 
-I also like to do some photoshopping, play Minecraft (check out [my VarietySMP gameplay](https://youtube.com/playlist?list=PLC0ZN6JJKZxe_KnAuq664AlETPl4n3a8H)), and make music, and have, at some point, done some SEO in WordPress, Joomla! and ReadyMag.
+## Interests
+I like using Photoshop more than I like taking any actual photos. Either way that stuff be on my [Insta](https://instagram.com/TallrThanShort).
 
-## Pigstep
-Feel free to send me a duck image at [TallerThanShort@duck.com](mailto:TallerThanShort@duck.com)
+I'm fond of Minecraft (prior to 1.9) - my childhood is this game.
 
-Feel free to chat on [**Revolt**](https://app.revolt.chat/invite/E1GKAxh8), [*Crispy*](https://crispychat.tech/app/#invite=creak) or [Discord](https://discord.gg/YEvpRE2Gjt) with me!
-(oh btw i got back on Discord)
+I also make YouTube content (check out [my VarietySMP gameplay](https://youtube.com/playlist?list=PLC0ZN6JJKZxe_KnAuq664AlETPl4n3a8H)), and make music.
 
-Also feel free to ~~stalk me~~ read me [blog](https://TallerThanShort.github.io)
+## Life's Experiences
+*"I don't have any plans, never do."*
 
-## Projects I Curate:
-- ./TallerThanShort/[BugFreeChat](https://bug-free-chat.netlify.app/)
-- ./CKStudios2018/[LoopyOS](https://github.com/CKStudios2018/LoopyOS)
-- ./TallerThanShort/[SYSl-BetterGUI](https://github.com/TallerThanShort/SYSlang)
-- ./CKStudios2018/[SYSbot-Website](https://github.com/CKStudios2018/syslbot)
-- ./V1RU5/Discord.SYSl (deprecated/decommissioned. whatever you say when something is no longer maintained)
-- ./CKStudios2018/[SYSbot](https://github.com/CKStudios2018/SYSbot)
-- ./TallerThanShort/[Virtual Waifu](https://github.com/TallerThanShort/Virtual-Waifu)
-- ./Common-Codes/[uTube](https://github.com/Common-Codes/OpenSource-uTube)
-- ./TallerThanShort/[ut3.ggpht (uTube image repo)](https://github.com/TallerThanShort/ut3.ggpht)
-- ./TallerThanShort/[ut3.ggpht.ga (uTube CDN)](https://tallerthanshort.github.io/ut3.ggpht/)
-- ./Common-Codes/[SYSbot for Revolt](https://github.com/Common-Codes/SYS4Revolt)
+I've done plenty in some short 20 years while I've been around.
+
+Everything from SEO in [WordPress](https://wordpress.org), [Joomla!](https://www.joomla.org) and [ReadyMag](https://readymag.com), to making complete social media platfoms, making video games to remixing music, making [YouTube content](https://youtube.com/@TallrThanShort) to making my very own [AI](https://instagram.com/gen.ggpht) that makes weird images for me.
+
+All of that (yes, every last bit) was unplanned, unforeseen, unpredicted and totally awesome.
+
+## Some demonstration projects
+- ./TallerThanShort/BugFreeChat [Live Demo](https://bug-free-chat.netlify.app/)
+- ./TallerThanShort/Virtual Waifu [Source Code](https://github.com/TallerThanShort/Virtual-Waifu)
+- ./Common-Codes/uTube [Source Code](https://github.com/Common-Codes/uTube) - [Live Demo](https://osutube.nl)
+- ./Common-Codes/Crispy [Source Code](https://github.com/Common-Codes/Crispy) - [Live Demo](https://crispychat.tech)
+
+
+## Contact Me!
+- Feel free to mail me at [TallerThanShort@duck.com](mailto:TallerThanShort@duck.com)
+- Find me on [Twitter](https://twitter.com/TallrThanShort), [Instagram](https://instagram.com/TallrThanShort), [YouTube](https://youtube.com/@TallrThanShort) & [uTube](https://osutube.nl/users/?u=TallerThanShort) (I'm bound to be on more socials)
+- Compete with me on [TryHackMe](https://tryhackme.com/p/TallerThanShort) (I'm not the best, but it's great fun)
+
+Feel free to chat on [**Revolt**](https://app.revolt.chat/invite/E1GKAxh8), [*Crispy*](https://crispychat.tech/app/) or [Discord](https://discord.gg/YEvpRE2Gjt) with me!
+
+Also feel free to ~~stalk me~~ read me [blog](https://TallerThanShort.is-a.dev/blog)
