@@ -15,9 +15,11 @@ I also make YouTube content (check out [my VarietySMP gameplay](https://youtube.
 
 I've done plenty in some short 20 years while I've been around.
 
-Everything from SEO in [WordPress](https://wordpress.org), [Joomla!](https://www.joomla.org) and [ReadyMag](https://readymag.com), to making complete social media platfoms, making video games to remixing music, making [YouTube content](https://youtube.com/@TallrThanShort) to making my very own [AI](https://instagram.com/gen.ggpht) that makes weird images for me.
+Everything from SEO in [WordPress](https://wordpress.org), [Joomla!](https://www.joomla.org) and [ReadyMag](https://readymag.com), to making (my own) social media platfoms, making video games to remixing music, making [YouTube content](https://youtube.com/@TallrThanShort) to making my very own [AI](https://instagram.com/gen.ggpht) that makes weird images for me.
 
 All of that (yes, every last bit) was unplanned, unforeseen, unpredicted and totally awesome.
+
+***"Don't stop me now"***, you couldn't if you tried.
 
 ## Some demonstration projects
 - ./TallerThanShort/BugFreeChat [Live Demo](https://bug-free-chat.netlify.app/)
