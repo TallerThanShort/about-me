@@ -20,8 +20,8 @@ let query = postsRef.orderBy('pnum', 'desc').limit(landingPosts);
 
 query.onSnapshot(function(snapshot) {
     // Check if there are more posts available to load
-    if (snapshot.size < landingPosts) {
-        morePostsAvailable = false;
+    if (snapshot.size < landingPosts - 2) {
+        morePostsAvailable = false; //returns false if there are less than 0 blog entries
     }
     var posts = snapshot.docs.map(function(post) {
       return post.data();
