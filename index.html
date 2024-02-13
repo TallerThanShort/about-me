@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TallerThanShort's Website</title>
     <link rel="stylesheet" href="purpleboi.css">
-    <link rel="icon" href="https://autumn.revolt.chat/avatars/J_fwjVAUedX4tIpDeWxdVLxICm7cCRK9W-9ilOrpnJ?max_side=256" type="image/png">
-    <link rel="icon" type="image/x-icon" href="https://autumn.revolt.chat/avatars/J_fwjVAUedX4tIpDeWxdVLxICm7cCRK9W-9ilOrpnJ?max_side=256">
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6" type="image/png">
+    <link rel="icon" type="image/x-icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6">
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
     <!-- My blog is read-only to all but one user. Good luck finding the user creds lmao (Happy Code Scraping!) -->
     <script src="script.js"></script>
 </head>
 <body class="background-primary primary-text">
-    <div style="text-align: center;">
-        <button onclick="location.href='https://github.com/TallerThanShort/about-me'" style="border: none; border-radius: 10px 0px 0px 10px; position: absolute; right: 0; top: 0; background-color: rgb(116, 69, 217); cursor: pointer;"><span style="padding: 12px;"><img src="github.png" style="width: 12px;"> View on GitHub</span></button>
-        <h1 style="text-shadow: 0 5px 6px rgb(116, 69, 225);">About Me <img src="https://autumn.revolt.chat/avatars/J_fwjVAUedX4tIpDeWxdVLxICm7cCRK9W-9ilOrpnJ?max_side=256" style="width: 22px; height: 22px;" title="TallerThanShort" alt="TallerThanShort"></h1>
-        <p class="secondary-text" style="font-size: smaller;">legit just my site, ok?</p>
-    </div>
-    <hr>
-    <div id="mainbody" style="padding-left: 12px; padding-right: 12px;">
-        <p>Elo!</p>
-        <p>I'm TallerThanShort (TTS), a goofball that likes to make things like websites or social media platforms for fun.</p>
+    <header id="stickyHeader" class="stickyHeader">
+        <button onclick="location.href='https://github.com/TallerThanShort/about-me'" style="border: none; border-radius: 10px 0px 0px 10px; position: absolute; right: 0; top: 0; background-color: rgb(116, 69, 217); cursor: pointer; z-index: 1010;"><span style="padding: 12px;"><img src="github.png" style="width: 12px;"> View on GitHub</span></button>
+        <div style="text-align: center;">
+            <h1 style="text-shadow: 0 5px 6px rgb(116, 69, 225);">About Me <img src="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6" style="width: 22px; height: 22px; border-radius: 50%;" title="TallerThanShort" alt="TallerThanShort"></h1>
+            <p class="secondary-text" style="font-size: smaller;">legit just my site, ok?</p>
+        </div>
+    </header>
+    <div class="mainbody">
+        <p style="font-weight: 600;">Elo! 👋</p>
+        <p>I'm TallerThanShort (TTS), a goofball that likes to make things like websites, music, videogames, or YouTube content for fun.</p>
+        <br>
         <h3>Interests</h3>
-        <p>I like using Photoshop more than I like taking any actual photos. Either way that stuff be on my <a href="https://instagram.com/TallrThanShort">Insta</a>.</p>
+        <p>I like using Photoshop more than I like taking any actual photos. Either way that stuff be on my <a href="https://instagram.com/TallrThanShort" target="_blank">Insta</a> & <a href="https://hydraulisc.net/user/YrS1gbLDTHNhvGquyuKfZICwQQn1" target="_blank">Hydraulisc</a>.</p>
         <p>I'm fond of Minecraft (prior to 1.9) - my childhood is this game.</p>
-        <p>I also make <a href="https://youtube.com/@TallrThanShort">YouTube content</a> (when I can be bothered smh), and make <a href="https://youtu.be/QcrR305u9JY">music</a>.</p>
+        <p>I also make <a href="https://youtube.com/@TallrThanShort">YouTube content</a> (when I can be bothered smh), and make <a href="https://soundcloud.com/tallrthanshort/lnayp-demo" target="_blank">music</a> from time to time.</p>
+        <br>
         <h3>Life's Experiences</h3>
         <p style="font-size: smaller;"><i>"I don't have any plans, never do."</i></p>
         <p>I've done plenty in some short twenty-odd years while I've been around.</p>
@@ -40,8 +43,8 @@
     <div style="padding-top: 5rem; padding-bottom: 5rem; background-color: rgba(33, 32, 33, 0.32); width: 100%;">
         <div style="padding: 10px; text-align: center;">
             <div class="secondary-text">
-                <p>Site created with love and <a href="https://cdn.discordapp.com/attachments/885456195152928768/1112081694724460754/image.png">headbanging</a> by TallerThanShort.</p>
-                <p>Site made using a modified version of TallerThanShort's <a href="https://github.com/TallerThanShort/cascading-style-sheets/blob/main/purpleboi.css">purpleboi theme</a>. The purpleboi theme is licensed under the MIT License, which allows for personal use, commercial use and modifications.</p>
+                <p>Site created with love and <a href="https://cdn.hydraulisc.net/9hhkAQB9qnvI.png" target="_blank">headbanging</a> by TallerThanShort.</p>
+                <p>Site made using a modified version of TallerThanShort's <a href="https://github.com/TallerThanShort/cascading-style-sheets/blob/main/purpleboi.css" target="_blank">purpleboi theme</a>. The purpleboi theme is licensed under the MIT License, which allows for personal use, commercial use and modifications.</p>
             </div>
         </div>
     </div>

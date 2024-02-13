@@ -1,5 +1,5 @@
 .background-primary {
-    background-color: brown;
+    background-color: rgb(32, 0, 20);
     background-image: linear-gradient(to bottom right, rgb(24, 0, 38) 60%, rgb(32, 0, 20) 100%, rgb(51, 0, 81) 60%, rgb(116, 69, 217) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -74,4 +74,20 @@ img {
    max-width: 90%;
    width: auto;
    height: auto;
+}
+.stickyHeader {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+.mainbody {
+    padding-top: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
