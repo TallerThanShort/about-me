@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6" type="image/png">
+    <link rel="icon" type="image/x-icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6">
+    <title>My Watch List | TallerThanShort</title>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="../purpleboi.css">
+    <link rel="stylesheet" href="restyled.css">
+</head>
+<body class="background-primary primary-text">
+    <header id="stickyHeader" class="stickyHeader">
+        <button onclick="location.href='https://github.com/TallerThanShort/about-me'" style="border: none; border-radius: 10px 0px 0px 10px; position: absolute; right: 0; top: 0; background-color: rgb(116, 69, 217); cursor: pointer; z-index: 1010;"><span style="padding: 12px;"><img src="../github.png" style="width: 12px;"> View on GitHub</span></button>
+        <div style="text-align: center;">
+            <h1 style="text-shadow: 0 5px 6px rgb(116, 69, 225);">My Watch List</h1>
+            <p class="secondary-text" style="font-size: smaller;">A list of every anime I've watched, ok?</p>
+        </div>
+    </header>
+    <br><br><br>
+    <div style="padding-top: 100px;">
+        <div class="grid-container" id="myAnimeWatchlist"></div>
+    </div>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCLbkhREuE47oTfa8A98vJ-7KwA55DdqBU",
+            authDomain: "what-block.firebaseapp.com",
+            projectId: "what-block",
+            storageBucket: "what-block.appspot.com",
+            messagingSenderId: "30475081786",
+            appId: "1:30475081786:web:b43d44bde6bc02cadbfd03"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const store = firebase.firestore();
+
+        const loadingPosts = 16;
+        let lastVisiblePost = null;
+        let morePostsAvailable = true;
+
+        // Function to populate the watchlist
+        function populateWatchlist() {
+            const watchlistContainer = document.getElementById("myAnimeWatchlist");
+            const postsRef = firebase.firestore().collection('myanimelist');
+            let query = postsRef.limit(loadingPosts);
+
+            if (lastVisiblePost) {
+                query = query.startAfter(lastVisiblePost);
+            }
+
+            query.onSnapshot(function(snapshot) {
+                // Check if there are more posts available to load
+                if (snapshot.size < loadingPosts) {
+                    morePostsAvailable = false;
+                    document.getElementById('loadMore').disabled = true;
+                    document.getElementById('loadMore').style.background = 'rgba(0,0,0,0.3)';
+                    document.getElementById('loadMore').style.color = 'rgba(255,255,255,0.3)';
+                }
+                var posts = snapshot.docs.map(function(post) {
+                    return post.data();
+                });
+
+                posts.forEach(function(post) {
+                    addPostToPage(post);
+                });
+
+                lastVisiblePost = snapshot.docs[snapshot.docs.length - 1];
+            });
+
+            function addPostToPage(post) {
+                var postElement = `
+                <div class="anime-item">
+                    <img class="anime-item-img" src="${post.cover}">
+                    <p>${post.name}</p>
+                </div>
+            `;
+            watchlistContainer.innerHTML += postElement;
+            };
+        }
+
+        // Call the function to populate the watchlist
+        populateWatchlist();
+
+        document.addEventListener('click', (e) => {
+            let element = e.target;
+            if(morePostsAvailable){
+                if(element.id == 'loadMore'){
+                    populateWatchlist();
+                }
+            } else {
+                return;   
+            }
+
+        })
+    </script>
+    <div id="buttons">
+        <button id="loadMore" disabled="" class="btn-primary primary-text">Load More</button>
+    </div>
+</body>
+</html>

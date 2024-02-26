@@ -1,0 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.anime-item {
+  cursor: default;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.anime-item-img {
+  max-width: 211px;
+  max-height: 211px;
+  min-width: 130px;
+  min-height: 166px;
+}

@@ -18,7 +18,7 @@ window.onload = function() {
     const entryLocator = new URLSearchParams(window.location.search.slice(1));
     const entryID = entryLocator.get('entry');
     if(!entryID){
-        document.getElementById("title").innerHTML = `<h1>TallerThanShort's Blog</h1><hr>`;
+        document.getElementById("title").innerHTML = `<h1 style="text-shadow: 0 5px 6px rgb(116, 69, 225);">TallerThanShort's Blog</h1>`;
         document.getElementById("buttons").innerHTML = `<button id="loadMore" class="btn-primary primary-text">Load More</button>`;
         getPosts();
     } else {
