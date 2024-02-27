@@ -64,7 +64,7 @@ li, li::before, li:before {
     cursor: pointer;
     border: none;
     text-transform: uppercase;
-    background-color: rgb(32, 0, 20);
+    background-color: rgb(100, 9, 200);
     transition: background-color 0.8s;
 }
 .btn-primary:hover, .btn-secondary:hover {

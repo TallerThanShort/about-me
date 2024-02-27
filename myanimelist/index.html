@@ -85,9 +85,8 @@
         populateWatchlist();
 
         document.addEventListener('click', (e) => {
-            let element = e.target;
             if(morePostsAvailable){
-                if(element.id == 'loadMore'){
+                if(e.target.id == 'loadMore'){
                     populateWatchlist();
                 }
             } else {
@@ -97,7 +96,8 @@
         })
     </script>
     <div id="buttons">
-        <button id="loadMore" disabled="false" class="btn-primary primary-text">Load More</button>
+        <button class="btn-secondary primary-text" onclick="location.href='/'">Return to Start</button>
+        <button id="loadMore" class="btn-primary primary-text">Load More</button>
     </div>
 </body>
 </html>
