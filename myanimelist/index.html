@@ -7,10 +7,12 @@
     <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6" type="image/png">
     <link rel="icon" type="image/x-icon" href="https://firebasestorage.googleapis.com/v0/b/hydraulisc.appspot.com/o/a96c0adf3c80975d036d7a16146b9747.webp?alt=media&token=a8b13b5c-0829-410a-8823-77e0e7cbdcd6">
     <title>My Watch List | TallerThanShort</title>
-    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
     <link rel="stylesheet" href="../purpleboi.css">
     <link rel="stylesheet" href="restyled.css">
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <!-- this is supposed to keep code clean, but guess what? All it causes is pain >:( -->
+    <script src="scipy.js"></script>
 </head>
 <body class="background-primary primary-text">
     <header id="stickyHeader" class="stickyHeader">
@@ -21,66 +23,10 @@
         </div>
     </header>
     <br><br><br>
-    <div style="padding-top: 100px;">
+    <div style="padding-top: 60px;">
         <div class="grid-container" id="myAnimeWatchlist"></div>
     </div>
     <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyCLbkhREuE47oTfa8A98vJ-7KwA55DdqBU",
-            authDomain: "what-block.firebaseapp.com",
-            projectId: "what-block",
-            storageBucket: "what-block.appspot.com",
-            messagingSenderId: "30475081786",
-            appId: "1:30475081786:web:b43d44bde6bc02cadbfd03"
-        };
-
-        firebase.initializeApp(firebaseConfig);
-        const store = firebase.firestore();
-
-        const loadingPosts = 16;
-        let lastVisiblePost = null;
-        let morePostsAvailable = true;
-
-        // Function to populate the watchlist
-        function populateWatchlist() {
-            const watchlistContainer = document.getElementById("myAnimeWatchlist");
-            const postsRef = firebase.firestore().collection('myanimelist');
-            let query = postsRef.limit(loadingPosts);
-
-            if (lastVisiblePost) {
-                query = query.startAfter(lastVisiblePost);
-            }
-
-            query.onSnapshot(function(snapshot) {
-                // Check if there are more posts available to load
-                if (snapshot.size < loadingPosts) {
-                    morePostsAvailable = false;
-                    document.getElementById('loadMore').disabled = true;
-                    document.getElementById('loadMore').style.background = 'rgba(0,0,0,0.3)';
-                    document.getElementById('loadMore').style.color = 'rgba(255,255,255,0.3)';
-                }
-                var posts = snapshot.docs.map(function(post) {
-                    return post.data();
-                });
-
-                posts.forEach(function(post) {
-                    addPostToPage(post);
-                });
-
-                lastVisiblePost = snapshot.docs[snapshot.docs.length - 1];
-            });
-
-            function addPostToPage(post) {
-                var postElement = `
-                <div class="anime-item">
-                    <img class="anime-item-img" src="${post.cover}">
-                    <p>${post.name}</p>
-                </div>
-            `;
-            watchlistContainer.innerHTML += postElement;
-            };
-        }
-
         // Call the function to populate the watchlist
         populateWatchlist();
 
@@ -92,7 +38,6 @@
             } else {
                 return;   
             }
-
         })
     </script>
     <div id="buttons">
@@ -100,16 +45,16 @@
         <button id="loadMore" class="btn-primary primary-text">Load More</button>
     </div>
     <br>
-    <div class="warning-block">
+    <div class="warning-block" style="margin-bottom: 40px !important;">
         <h3>Disclaimer!</h3>
         <p>I feel the need to add this small disclaimer about this section of the site, to help further clarify some various things. I would really appreciate if you read through it entirely:</p>
         <ul>
-            <li>Some of these Anime are better well classed as Hanime (18+ anime with mild nudity or sexual scenes), and some are rated PG or 16+ due to mild violence, gore and/or suicidal topics. - always research before watching.</li>
-            <li>I only list the anime I've watched here, without classifying whether I liked them or not. If you want to watch it still, I recommend researching it first.</li>
-            <li>Some of these Anime titles are no longer available (looking at the Me, Omnipotent OVA or World's End Harem OVA). This is normally due to them getting taken down by their publishers.</li>
-            <li>And finally, this list does get updated regularly, without warning or notice of any kind. Furthermore, at time of writing, it has only 10% of all titles I've ever watched - to keep things pretty, I'm finding covers before adding them to the list.</li>
+            <li>- Some of these Anime are better well classed as Hanime (18+ anime with mild nudity or sexual scenes), and some are rated PG or 16+ due to mild violence, gore and/or suicidal topics. - always research before watching.</li>
+            <li>- I only list the anime I've watched here, without classifying whether I liked them or not. If you want to watch it still, I recommend researching it first.</li>
+            <li>- Some of these Anime titles are no longer available (looking at the Me, Omnipotent OVA or World's End Harem OVA). This is normally due to them getting taken down by their publishers.</li>
+            <li>- And finally, this list does get updated regularly, without warning or notice of any kind. Furthermore, at time of writing, it has only 10% of all titles I've ever watched - to keep things pretty, I'm finding covers before adding them to the list.</li>
         </ul>
-        <p>Bear in mind the above pointers before watching or even researching any of these anime.</p>
+        <p>Bear in mind the above pointers before watching or even researching any of these titles.</p>
     </div>
 </body>
 </html>
